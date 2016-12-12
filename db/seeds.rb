@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+stories = Story.create([{title: 'Ruby on Rails news', link: 'http://guides.rubyonrails.org/active_record_basics.html', email: 'jasmine@jaspark.com'}, {title: 'Java Script', link: 'http://www.creativebloq.com/web-design/examples-of-javascript-1233964', email: 'msQ@ggmail.com'}, {title: '.Net story', link: 'https://www.microsoft.com/net', email: 'netJas@hotmail.com'}])
+# linkLink.create([{link: 'www.rubyonrails.com', story: stories.first)
+# Email.create(email: 'jasmine@jaspark.com', email: stories.first)
